@@ -23,10 +23,7 @@
 
     <section id="Lista">
         <h2>Lista de jogos</h2> <!--titulo menor-->
-        <img 
-            src="baixados (1).jpg" 
-            alt="Tigrinho"
-            title="Imagem de perfil">
+        <img src="baixados (1).jpg" alt="Tigrinho" title="Imagem de perfil">
         <article>
             <p>
                 ola, eu sou o goku, meu pau no seu...
@@ -51,14 +48,72 @@
             </p>
         </article>
     </section>
+
+    <section id="habilidades">
+        <h2>Habilidades e tecnologias</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>tecnologia</th>
+                    <th>nivel</th>
+                    <th>descriçao</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>avançada</td>
+                    <td>mais avançado</td>
+                    <td>tirar dinheiro de otario</td>
+                </tr>
+                
+                <tr>
+                    <td>da nasa</td>
+                    <td>extraordinario</td>
+                    <td>fuçar planetas</td>
+                </tr>
+            </tbody>
+
+        </table>
+
+    </section>
+
     <footer>
         <p>direitos reservados ao barretin</p>
+
+
         <section id="Contato">
             <h2>Contato</h2>
             <p>quer perder dinhero? entre em cotato</p>
             <address>
                 Telefone: <a href="99571721">9966 pé na bunda mao na oreia</a> <br>
                 Email: <a href="mailto:barretin@gmail.com">barretin@barreto.com</a>
+                <form action="">
+                    <label for="nome">Nome: </label>
+                    <input type="text" id="nome" name="nome" required> <br>
+
+                    <label for="email">email: </label>
+                    <input type="email" id="email" name="email" required> <br>
+
+                    <label for="telefone">Telefone: </label>
+                    <input type="tel" id="telefone" name="Telefone"> <br>
+
+                    <label for="assunto">Assunto</label>
+                    <select name="assunto" id="assunto">
+                        <option value="orcamento">Orçamento</option>
+                        <option value="patrocinio">Proposta de Patrocinio</option>
+                        <option value="duvida">Duvida</option>
+                    </select>
+                    <br>
+                    <label for="mensagem">Mensagem</label required>
+                    <textarea name="mensagem" id="mensagem" cols="20" rows="10"></textarea>
+                    <br>
+                    <input type="checkbox" name="inscricao" id="inscricao">
+                    <label for="inscricao">Deseja receber mensagem?</label>
+
+                    <input type="submit" value="Enviar Mensagem">
+
+                </form>
             </address>
         </section>
     </footer>
